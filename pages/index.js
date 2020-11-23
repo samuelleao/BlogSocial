@@ -13,7 +13,7 @@ const Home = () => {
         <meta property='og:image' content={'../images/pages/index/bgIndex.png'} />
         <meta property='og:image:secure_url' content={'../images/pages/index/bgIndex.png'} />
         <meta property='og:image:width' content='600' />
-        <meta property='og:type' content='article' />s
+        <meta property='og:type' content='article' />
         <meta property='article:author' content='Samuel Leão' />
         <meta property='article:tag' content='Minha pequena contribuição para a sociedade' />
         <meta property='article:description' content='Tenho como objetivo retornar a sociedade que paga meu curso, meus estudos na área de ciências sociais, ensaios e curiosidades' />
@@ -65,11 +65,10 @@ const Home = () => {
 
                 <Card
                   img={require('../images/blog/2.png')}
-                  title='Jean-Jacques-Rousseau, quem foi?'
-                  description='Sua filosofia política de fato influenciou o 
-                  Iluminismo por toda a Europa, assim como 
-                  também aspectos da Revolução Francesa.'
-                  category='Sociologia'
+                  title='Em sua obra “A grande Transformação: as origens de nossa época” 
+                  publicado originalmente em 1940, Karl Polanyi elabora críticas com 
+                  sua visão antropologizada da economia.'
+                  category='Ciência Política'
                 />
 
                 <Card
