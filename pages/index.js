@@ -65,7 +65,9 @@ const Home = () => {
 
                 <Card
                   img={require('../images/blog/2.png')}
-                  title='Em sua obra “A grande Transformação: as origens de nossa época” 
+                  title='Karl Polanyi
+                  e o mercado auto regulado'
+                  description='Em sua obra “A grande Transformação: as origens de nossa época” 
                   publicado originalmente em 1940, Karl Polanyi elabora críticas com 
                   sua visão antropologizada da economia.'
                   category='Ciência Política'
