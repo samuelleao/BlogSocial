@@ -37,8 +37,9 @@
     .blog-category{
         flex-direction: row;
         justify-content: flex-start;
-        padding:0;
+        padding: 5px 0px;
         overflow: auto;
+        grid-gap: 2em;
     }
 
     .blog-category li a{
