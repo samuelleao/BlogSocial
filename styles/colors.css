@@ -1,0 +1,18 @@
+:root {
+    --color-primary: #222222;
+    --color-grey: #7C7C7C;
+    --color-white: #fff;
+    --color-white-ice: #F9F9F9;
+}
+
+.color-primary{
+    color: var(--color-primary);
+}
+
+.color-white-ice{
+    color: var(--color-white-ice);
+}
+
+.color-white{
+    color: var(--color-white);
+}

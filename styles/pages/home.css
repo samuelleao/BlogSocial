@@ -1,0 +1,27 @@
+#index .section1{
+    background-image: url('../../images/pages/index/bgIndex.png');
+    padding: 100px 0px;
+    position: relative;
+}
+
+#index .section2{
+    padding: 70px 0px;
+}
+
+#index .section1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+@media(max-width: 991px){
+    #index .section1{
+        padding: 20px 0px;
+    }
+    #index .section2{
+        padding: 10px 0px;
+    }
+}
